@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <script>
+        const lang = navigator.language || navigator.userLanguage;
+        if (lang.startsWith('hu')) {
+            window.location.replace('/hu/index.html');
+        } else {
+            window.location.replace('/en/index.html');
+        }
+    </script>
+
+    <meta http-equiv="refresh" content="0;url=/hu/index.html">
+</head>
+
+<body>
+    <a href="/hu/index.html">Kattints ide, ha az oldal nem töltődik be automatikusan</a>
+    <a href="/en/index.html">Click here if the page does not load automatically</a>
+</body>
+
+</html>

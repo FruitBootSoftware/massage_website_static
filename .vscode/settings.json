@@ -1,0 +1,15 @@
+{
+    "tailwindCSS.files.exclude": [
+        "**/.git/**",
+        "**/node_modules/**",
+        "**/dist/**"
+    ],
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/.git/**": true
+    },
+    "search.exclude": {
+        "**/node_modules/**": true
+    },
+    "tailwindCSS.experimental.classRegex": []
+}

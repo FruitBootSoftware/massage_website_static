@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@source "../../*.html";
+@source "../../en/**/*.html";
+@source "../../hu/**/*.html";
+
+
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --shadow-soft: 0 2px 12px 0 rgb(0 0 0 / 0.08);
+    --shadow-card: 0 4px 24px 0 rgb(0 0 0 / 0.10);
+    --shadow-glow: 0 0 20px 0 rgb(201 168 124 / 0.3);
+}
+
+body {
+    color: var(--color-foreground);
+}
+
+.card {
+    box-shadow: var(--shadow-card);
+}
+
+.glow {
+    box-shadow: var(--shadow-glow);
+}
+
+.soft {
+    box-shadow: var(--shadow-soft);
+}
+
+@theme {
+    --color-brand: #FFFFF0;
+    --color-foreground: #4A3728;
+    --color-secondary: #EFE5D8;
+    --color-accent: #9AAF82;
+
+    --shadow-soft: 0 2px 12px 0 rgb(0 0 0 / 0.08);
+    --shadow-card: 0 4px 24px 0 rgb(0 0 0 / 0.10);
+    --shadow-glow: 0 0 20px 0 rgb(201 168 124 / 0.3);
+}

@@ -1,0 +1,32 @@
+{
+    "availability": {
+        "monday": {
+            "from": "10:00",
+            "to": "18:00"
+        },
+        "tuesday": {
+            "from": "10:00",
+            "to": "18:00"
+        },
+        "wednesday": {
+            "from": "10:00",
+            "to": "18:00"
+        },
+        "thursday": {
+            "from": "10:00",
+            "to": "18:00"
+        },
+        "friday": {
+            "from": "10:00",
+            "to": "18:00"
+        },
+        "saturday": {
+            "from": null,
+            "to": null
+        },
+        "sunday": {
+            "from": null,
+            "to": null
+        }
+    }
+}

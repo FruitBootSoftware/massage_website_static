@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/flower.png" />
+    <title>Swedish Massage Budapest XIII. district</title>
+    <link rel="stylesheet" href="/assets/styles/output.css">
+</head>
+
+<body class="bg-brand">
+    <!-- Navbar -->
+    <header class="sticky top-0 z-50">
+        <script src="/assets/scripts/navbar.js"></script>
+        <div class="hidden md:flex flex-row items-center justify-center">
+            <nav
+                class="flex flex-row py-2 px-4 rounded-2xl my-4 items-center soft bg-secondary/75 backdrop-blur-md justify-center gap-2">
+                <img src="/assets/icons/flower.png"></img>
+                <label data-id="home"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Home</label>
+                <label data-id="news"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">News</label>
+                <label data-id="programs"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Programs</label>
+                <label data-id="about-us"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">About
+                    Us</label>
+                <label data-id="gallery"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Gallery</label>
+                <label data-id="house-rules"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">House
+                    Rules</label>
+                <label data-id="contact"
+                    class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Contact</label>
+                <img src="/assets/icons/flower.png"></img>
+            </nav>
+            <div class="px-4 py-2 rounded-full  mx-8 bg-secondary/75 backdrop-blur-md soft">
+                <!--     <LanguageSwitcherComponent /> -->
+                <div class="flex flex-row items-center gap-2">
+                    <a href="/hu/index.html">
+                        <img src="/assets/icons/language-en.png" class="w-6 h-6"></img>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flex md:hidden flex-row items-center bg-secondary/75 backdrop-blur-md justify-between px-4 py-4">
+            <img src="/assets/icons/flower.png" class="w-6 h-6"></img>
+            <div class="flex flex-row items-center gap-2">
+                <a href="/hu/index.html">
+                    <img src="/assets/icons/language-en.png" class="w-6 h-6"></img>
+                </a>
+            </div>
+            <img id="mobileMenuToggle" src="/assets/icons/menu.png" class="w-6 h-6 hover:cursor-pointer"></img>
+        </div>
+        <div id="mobileMenu"
+            class="hidden flex md:hidden flex-col items-center bg-secondary/75 backdrop-blur-md justify-center gap-4 py-4">
+            <label data-id="home_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Home</label>
+            <label data-id="news_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">News</label>
+            <label data-id="programs_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Programs</label>
+            <label data-id="about-us_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">About
+                Us</label>
+            <label data-id="gallery_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Gallery</label>
+            <label data-id="house-rules_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">House
+                Rules</label>
+            <label data-id="contact_mobile"
+                class="nav-link text-foreground! hover:text-accent! hover:cursor-pointer mx-4 text-lg font-bold">Contact</label>
+        </div>
+    </header>
+
+    <!-- Home Page-->
+    <section id="home" class="h-[90vh] w-full bg-[url('/assets/images/home-bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="backdrop-blur-sm bg-brand/25 h-full py-12">
+            <div class="flex flex-col h-full items-center justify-center gap-2">
+                <div class="rounded-full mb-12 w-[60vw] md:w-[20vw] h-[60vw] md:h-[20vw]">
+                    <img src='/assets/images/profile.jpg' class="rounded-full w-full h-full object-cover glow"></img>
+                </div>
+                <h1 class="text-3xl md:text-5xl font-bold mt-8 text-center">Relaxational Swedish massage
+                    at Budapest
+                </h1>
+                <div class="flex flex-col items-center bg-white/65 glow mt-4 rounded-full px-8 py-4 justify-center">
+                    <h2 class="text-xl md:text-3xl font-light text-center max-w-2xl">
+                        District XIII</h2>
+                    <div class="flex flex-row gap-4 justify-center md:justify-end">
+                        <img src="/assets/icons/location.png" class="w-6 h-6"></img>
+                        <label class="text-md md:text-lg font-bold">1139 Petneházy Street 56, Budapest</label>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news"
+        class="h-150 w-full shadow-inner py-8 bg-linear-to-b from-secondary/50 to-secondary/60 backdrop-blur-sm">
+        <div class="flex flex-col h-full items-center justify-start gap-2">
+            <div class="flex flex-row items-center gap-2">
+                <h1 class="text-3xl font-bold">News</h1>
+                <img src="/assets/icons/news.png" class="w-6 h-6 ml-2 mt-1"></img>
+            </div>
+
+            <!--Separator-->
+            <div class="h-0.5 mt-4 bg-linear-to-r from-transparent via-foreground to-transparent w-[50vw]"></div>
+            <div class="flex flex-col gap-6 mt-4 w-full overflow-y-auto">
+                <script src="/assets/scripts/news.js"></script>
+                <!--                 {translations?.news?.map((item, index) => (
+                <NewsFeedComponent key={index} title={item.title} date={item.date} content={item.message} />
+                ))} -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs -->
+    <section id="programs">
+        <div class="flex flex-col mt-8 h-full items-center justify-center gap-2">
+            <div class="flex flex-row items-center gap-2">
+                <h1 class="text-3xl font-bold">Programs</h1>
+                <img src="/assets/icons/bed.png" class="w-8 h-8 ml-2 mt-1"></img>
+            </div>
+            <script src="/assets/scripts/programs.js"></script>
+            <!--Separator-->
+            <div class="h-0.5 mt-4 bg-linear-to-r from-transparent via-foreground to-transparent w-[50vw]"></div>
+            <div class="w-full px-4 overflow-clip grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+
+                <!-- Program 1 -->
+                <div
+                    class="flex flex-col mx-2 md:mx-8 rounded-xl bg-linear-to-t from-accent/55 to-accent/45 backdrop-blur-md px-8 py-4 shadow-glow">
+                    <div class="flex flex-row gap-4 items-center">
+                        <div class="w-8 h-8 rounded-full items-center justify-center bg-brand soft p-1">
+                            <img src="/assets/icons/lightning.png"></img>
+                        </div>
+
+                        <h1 class="md:text-l lg:text-2xl text-2xl font-bold">Short massage program</h1>
+                    </div>
+                    <div class="flex flex-row gap-2 items-center mt-4 lg:mt-4 md:mt-2">
+                        <img src="/assets/icons/clock.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                        <label class="text-lg lg:text-lg font-bold">30 minutes</label>
+                    </div>
+
+                    <div
+                        class="bg-secondary/55 rounded-md p-4 text-xl md:text-md lg:text-xl my-8 lg:my-8 md:my-4 h-full overflow-y-auto shadow-card">
+                        <label class="font-normal text-l mb-2">Includes <label class="font-bold">ONE</label> of the
+                            following program options by choice</label>
+                        <ul class="list-disc list-inside mt-4 gap-2 font-semibold text-md flex flex-col">
+                            <li>Lower body massage</li>
+                            <label class="text-center italic font-light text-lg">Massage of the calves, thighs, and
+                                pelvis</label>
+                            <li class="mt-2">Upper body massage</li>
+                            <label class="text-center italic font-light text-lg">Massage of the back, shoulders, and
+                                neck</label>
+                        </ul>
+                    </div>
+
+
+                    <div class="flex flex-row justify-between gap-4">
+                        <div class="flex flex-col gap-2">
+                            <div class="flex flex-row gap-2 items-center rounded-sm shadow-glow bg-white/75 px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="price_huf text-xl lg:text-xl md:text-l font-bold" data-id="1"></label>
+                            </div>
+                            <div data-id="1"
+                                class="discount_huf flex flex-row gap-2 items-center rounded-sm shadow-glow bg-brand px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="discount_price_huf text-xl lg:text-xl md:text-l font-bold"
+                                    data-id="1"></label>
+                            </div>
+                        </div>
+
+
+                        <div class="flex flex-col gap-2">
+                            <div class="flex flex-row gap-2 items-center rounded-sm shadow-glow bg-white/75 px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="price_eur text-xl lg:text-xl md:text-l font-bold" data-id="1"></label>
+                            </div>
+                            <div data-id="1"
+                                class="discount_eur flex flex-row gap-2 items-center rounded-sm shadow-glow bg-brand px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="discount_price_eur text-xl lg:text-xl md:text-l font-bold"
+                                    data-id="1"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program 2 -->
+                <div
+                    class="flex flex-col mx-2 md:mx-8 rounded-xl bg-linear-to-t from-accent/55 to-accent/45 backdrop-blur-md px-8 py-4 shadow-glow">
+                    <div class="flex flex-row gap-4 items-center">
+                        <img src="/assets/icons/normal.png" class="w-8 lg:w-8 md:w-6 h-8 lg:h-8 md:h-6"></img>
+                        <h1 class="md:text-l lg:text-2xl text-2xl font-bold">Normal massage program</h1>
+                    </div>
+                    <div class="flex flex-row gap-2 items-center mt-4 lg:mt-4 md:mt-2">
+                        <img src="/assets/icons/clock.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                        <label class="text-lg lg:text-lg font-bold">60 minutes</label>
+                    </div>
+
+                    <div
+                        class="bg-secondary/55 rounded-md p-4 text-xl md:text-md lg:text-xl my-8 lg:my-8 md:my-4 h-full overflow-y-auto shadow-card">
+                        <label class="font-semibold text-l mb-2">Full body massage</label>
+                        <ul class="list-disc list-inside mt-4 gap-2 font-semibold text-md flex flex-col">
+                            <label class="text-center italic font-light text-lg">Full body massage of the calves,
+                                thighs, pelvis, back, shoulders, and neck</label>
+                        </ul>
+                    </div>
+
+
+                    <div class="flex flex-row justify-between gap-4">
+                        <div class="flex flex-col gap-2">
+                            <div class="flex flex-row gap-2 items-center rounded-sm shadow-glow bg-white/75 px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="price_huf text-xl lg:text-xl md:text-l font-bold" data-id="2"></label>
+                            </div>
+                            <div data-id="2"
+                                class="discount_huf flex flex-row gap-2 items-center rounded-sm shadow-glow bg-brand px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="discount_price_huf text-xl lg:text-xl md:text-l font-bold"
+                                    data-id="2"></label>
+                            </div>
+                        </div>
+
+
+                        <div class="flex flex-col gap-2">
+                            <div class="flex flex-row gap-2 items-center rounded-sm shadow-glow bg-white/75 px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="price_eur text-xl lg:text-xl md:text-l font-bold" data-id="2"></label>
+                            </div>
+                            <div data-id="2"
+                                class="discount_eur flex flex-row gap-2 items-center rounded-sm shadow-glow bg-brand px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="discount_price_eur text-xl lg:text-xl md:text-l font-bold"
+                                    data-id="2"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program 3 -->
+                <div
+                    class="flex flex-col mx-2 md:mx-8 rounded-xl bg-linear-to-t from-accent/55 to-accent/45 backdrop-blur-md px-8 py-4 shadow-glow">
+                    <div class="flex flex-row gap-4 items-center">
+                        <img src="/assets/icons/extra.png" class="w-8 lg:w-8 md:w-6 h-8 lg:h-8 md:h-6"></img>
+                        <h1 class="md:text-l lg:text-2xl text-2xl font-bold">Extended massage program</h1>
+                    </div>
+                    <div class="flex flex-row gap-2 items-center mt-4 lg:mt-4 md:mt-2">
+                        <img src="/assets/icons/clock.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                        <label class="text-lg lg:text-lg font-bold">90 minutes</label>
+                    </div>
+
+                    <div
+                        class="bg-secondary/55 rounded-md p-4 text-xl md:text-md lg:text-xl my-8 lg:my-8 md:my-4 h-full overflow-y-auto shadow-card">
+                        <label class="font-semibold text-l mb-2">Full body massage + hands and feet</label>
+                        <ul class="list-disc list-inside mt-4 gap-2 font-semibold text-md flex flex-col">
+                            <label class="text-center italic font-light text-lg">Full body massage of the calves,
+                                thighs, pelvis, back shoulders, neck, hands and feet</label>
+                        </ul>
+                    </div>
+
+
+                    <div class="flex flex-row justify-between gap-4">
+                        <div class="flex flex-col gap-2">
+                            <div class="flex flex-row gap-2 items-center rounded-sm shadow-glow bg-white/75 px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="price_huf text-xl lg:text-xl md:text-l font-bold" data-id="3"></label>
+                            </div>
+                            <div data-id="3"
+                                class="discount_huf flex flex-row gap-2 items-center rounded-sm shadow-glow bg-brand px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="discount_price_huf text-xl lg:text-xl md:text-l font-bold"
+                                    data-id="3"></label>
+                            </div>
+                        </div>
+
+
+                        <div class="flex flex-col gap-2">
+                            <div class="flex flex-row gap-2 items-center rounded-sm shadow-glow bg-white/75 px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="price_eur text-xl lg:text-xl md:text-l font-bold" data-id="3"></label>
+                            </div>
+                            <div data-id="3"
+                                class="discount_eur flex flex-row gap-2 items-center rounded-sm shadow-glow bg-brand px-4">
+                                <img src="/assets/icons/pricetag.png" class="lg:w-6 md:w-4 w-6 lg:h-6 md:h-4 h-6"></img>
+                                <label class="discount_price_eur text-xl lg:text-xl md:text-l font-bold"
+                                    data-id="3"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about-us" class="flex my-12 w-full items-center justify-center">
+        <div class="backdrop-blur-sm bg-white shadow-soft py-12 px-8 rounded-lg w-[90vw]">
+            <div class="flex flex-col items-center justify-start h-full gap-2">
+                <div class="flex flex-row items-end justify-center mt-8 gap-2">
+                    <h1 class="text-3xl font-bold text-center">About us</h1>
+                    <img src="/assets/icons/about.png" class="w-8 h-8"></img>
+                </div>
+
+                <!--Separator-->
+                <div class="h-0.5 mt-4 bg-linear-to-r from-transparent via-foreground to-transparent w-[50vw]"></div>
+                <div class="min-w-50 flex flex-col items-center">
+                    <div class="md:max-w-[50vw] flex flex-col items-center justify-center w-full h-full gap-4 mt-8">
+                        <h2 class="text-2xl text-center font-medium">Thank you for visiting! My name is Tamás and I am a
+                            certified massage therapist. I welcome any guest who seeks relaxation and rejuvenation.</h2>
+                        <ul
+                            class="list-disc list-inside mt-4 gap-6 font-normal text-foreground/95 text-start text-xl flex flex-col">
+                            <li>My massage style is primarily <label class="font-semibold">Swedish</label>. Sufficient
+                                for freeing muscle tension and
+                                promoting relaxation.</li>
+                            <li>I can welcome you in my dedicated massage room, designed for comfort and tranquility.
+                                The location is easily accessible in the XIII. district at <label
+                                    class="font-semibold">Angyalföld</label>, with convenient
+                                parking options nearby.
+                            </li>
+                            <li><label class="font-semibold">Restroom</label>, <label
+                                    class="font-semibold">shower</label>, and <label class="font-semibold">changing
+                                    facilities</label> available for your convenience.</li>
+                            <li>There are various selection of <label class="font-semibold">oils</label> and <label
+                                    class="font-semibold">lotions</label> available for your preference.
+                            </li>
+                            <li><label class="font-semibold">Cash</label> and <label class="font-semibold">card</label>
+                                payments accepted.</li>
+                            <li>My services are <label class="font-semibold">only</label> available for <label
+                                    class="font-semibold">individuals</label>.</li>
+                        </ul>
+                    </div>
+
+                    <section id="timetable"
+                        class="min-w-[50vw] md:py-4 py-8 md:px-8 bg-secondary flex flex-col items-center shadow-card rounded-md gap-4 mt-16">
+                        <script src="/assets/scripts/timetable.js"></script>
+                        <div class="flex md:flex-row flex-col items-center justify-between gap-4 w-full">
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Monday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="monday">
+                                </label>
+                            </div>
+
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Tuesday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="tuesday">
+                                </label>
+                            </div>
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Wednesday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="wednesday">
+                                </label>
+                            </div>
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Thursday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="thursday">
+                                </label>
+                            </div>
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Friday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="friday">
+                                </label>
+                            </div>
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Saturday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="saturday">
+                                </label>
+                            </div>
+                            <div class="flex flex-col items-center justify-center gap-1">
+                                <h3 class="text-xl font-semibold">Sunday</h3>
+                                <label class="weekday text-lg text-foreground" data-id="sunday">
+                                </label>
+                            </div>
+                        </div>
+                        <p
+                            class="text-lg font-normal rounded-xl md:rounded-full bg-brand px-4 shadow-light py-1 mt-4 mx-4 text-center md:text-left text-foreground">
+                            The given timetable only shows the general range an appointment can be scheduled. My actual
+                            availability may vary day to day so direct discussion is required.</p>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="flex flex-col py-8 px-8 w-full items-center gap-4">
+        <script src="/assets/scripts/gallery.js"></script>
+        <div class="flex flex-row items-end justify-center gap-2">
+            <h1 class="text-3xl font-bold text-center">Gallery</h1>
+            <img src="/assets/icons/image.png" class="w-8 h-8"></img>
+        </div>
+        <div class="h-0.5 mt-4 bg-linear-to-r from-transparent via-foreground to-transparent w-[50vw]"></div>
+        <div class="max-w-2xl text-center mt-8 text-lg font-light bg-secondary rounded-xl shadow-card">
+            <div class="flex flex-col md:flex-row gap-2 items-center py-2 px-8">
+                <img src="/assets/icons/warning.png" class="w-8 h-8"></img>
+                <p class="text-foreground/90 text-md">The photos of the sessions are made with the collaboration of
+                    volunteers. Photo, video, and sound recording is <label class="font-semibold">NOT</label> made
+                    during real
+                    sessions. However upon request media creation during actual sessions can be arranged.</p>
+            </div>
+
+        </div>
+        <div id="smallImageRow"
+            class="flex flex-row w-full py-4 px-4 md:px-12 mt-8 justify-start md:justify-center gap-4 overflow-x-auto">
+        </div>
+
+        <img id="selectedImage" class="rounded-lg shadow-card object-center mt-0 md:mt-12 cursor-pointer" />
+
+        <div id="galleryImageModal"
+            class="flex fixed z-70 top-0 left-0 w-full h-full bg-black bg-opacity-75 items-center justify-center opacity-100 pointer-events-auto transition-opacity duration-300">
+            <img id="modal-img" class="w-full max-w-4xl rounded-lg shadow-glow object-cover" />
+        </div>
+    </section>
+
+    <!-- House Rules -->
+    <section id="house-rules" class="flex my-12 w-full items-center justify-center">
+        <div
+            class="flex backdrop-blur-sm items-center justify-center bg-white shadow-soft py-12 px-8 rounded-lg w-[90vw]">
+            <div class="flex flex-col md:max-w-[50vw] items-center justify-start h-full gap-2">
+                <div class="flex flex-row items-center justify-center mt-8 gap-2">
+                    <h1 class="text-3xl font-bold text-center">House rules</h1>
+                    <img src="/assets/icons/rules.png" class="w-8 h-8"></img>
+                </div>
+
+                <label class="text-2xl text-foreground/90 text-center mt-4">In order to provide a safe and comfortable
+                    environment for everyone please take note of the following rules.</label>
+                <ul
+                    class="list-disc list-inside text-start mt-4 gap-6 font-normal text-foreground/95 text-xl flex flex-col">
+                    <li>I am <label class="font-semibold">not</label> accepting guests under the influence of <label
+                            class="font-semibold">alcohol</label>
+                        or <label class="font-semibold">other substances</label>.</li>
+                    <li>I would like to ask all guests to arrive <label class="font-semibold">well hydrated</label>.
+                    </li>
+                    <li> <label class="font-semibold">Appointments</label> are <label
+                            class="font-semibold">required</label> for all sessions. Please contact me directly to
+                        schedule your
+                        session.</li>
+                    <li>Arriving <label class="font-semibold">5 to 10 minutes</label> prior to your scheduled
+                        appointment is highly appreciated. If you are
+                        running
+                        late please inform me as soon as possible.</li>
+                    <li><label class="font-semibold">Late</label> arrivals for a scheduled session are <label
+                            class="font-semibold">subtracted</label> from
+                        your session time.</li>
+                    <li>In case of cancellation please provide <label class="font-semibold">at least 24 hours
+                            notice</label>. Cancellations made with
+                        less than 24 hours notice may be subject to a <label class="font-semibold">cancellation
+                            fee</label>.</li>
+                    <li>Please inform me of any <label class="font-semibold">medical conditions</label>, <label
+                            class="font-semibold">allergies</label>, or <label class="font-semibold">injuries</label>
+                        prior to your session
+                        to ensure a safe and comfortable experience.</li>
+                    <li><label class="font-semibold">Respectful</label> <label class="font-semibold">behavior</label>
+                        towards each other is <label class="font-semibold">expected</label> at all times. Any form of
+                        <label class="font-semibold">harassment</label> or <label class="font-semibold">inappropriate
+                            behavior</label> will not be tolerated and may result in <label
+                            class="font-semibold">termination</label>
+                        of the session.
+                    </li>
+
+                    <div class="flex w-full justify-center my-12">
+
+
+                        <!--Separator-->
+                        <div class="h-0.5 mt-4 bg-linear-to-r from-transparent via-foreground to-transparent w-[50vw]">
+                        </div>
+                    </div>
+
+
+                    <div class="flex flex-row items-center justify-center mt-8 gap-2">
+                        <h1 class="text-3xl font-bold text-center">Health & Safety</h1>
+                        <img src="/assets/icons/health.png" class="w-8 h-8"></img>
+                    </div>
+
+                    <label class="text-2xl text-foreground/90 text-center mt-4">For the health and safety of me and
+                        especially of my clients, the following health conditions will prevent participation.</label>
+                    <ul
+                        class="list-disc list-inside text-start mt-4 gap-6 font-semibold text-foreground/95 text-xl flex flex-col">
+                        <li>Fever, cold, flu, or any contagious illness</li>
+                        <li>Open wounds, sores, or transmittable skin infections</li>
+                        <li>Untreated or uncontrolled clinically high blood pressure</li>
+                        <li>Untreated or uncontrolled heart arrhythmia</li>
+                        <li>Early stage or advanced Osteoporosis</li>
+                        <li>Individuals under cancer treatment, or those who were pronounced cured of cancer in less
+                            than the past 5 years</li>
+                        <li>Individuals in the first three weeks of pregnancy, or the last month of pregnancy</li>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="flex mt-12 w-full bg-secondary items-center justify-center bg-cover bg-center">
+        <script src="/assets/scripts/form.js"></script>
+        <div class="backdrop-blur-sm py-12 px-8 rounded-lg w-[90vw]">
+            <div class="flex flex-col items-center justify-start h-full gap-2">
+                <div class="flex flex-row items-center justify-center mt-8 gap-2">
+                    <h1 class="text-3xl font-bold text-center">Contact</h1>
+                    <img src="/assets//icons/contact.png" class="w-8 h-8"></img>
+                </div>
+
+                <!--Separator-->
+                <div class="h-0.5 mt-4 bg-linear-to-r from-transparent via-foreground to-transparent w-[50vw]">
+                </div>
+                <p class="text-xl max-w-4xl text-center mt-4">If you have any questions or would like to get in touch,
+                    please use the contact information below.</p>
+
+                <div class="min-w-50 flex flex-col items-start mt-8 bg-brand py-2 px-4 rounded-md shadow-card">
+
+                    <div class="w-full flex flex-col md:flex-row items-center justify-start gap-2 mt-2">
+                        <div class="flex flex-row gap-2">
+                            <img src="/assets/icons/phone.png" class="w-6 h-6"></img>
+                            <img src="/assets/icons/whatsapp.png" class="w-8 h-8"></img>
+                            <img src="/assets/icons/viber.png" class="w-8 h-8"></img>
+                        </div>
+                        <p class="text-lg font-medium text-left max-w-2xl">Phone:
+                            +36 30 354 3342</p>
+                    </div>
+                    <div class="w-full flex flex-col md:flex-row items-center justify-start gap-2 mt-8 md:mt-4">
+                        <img src="/assets/icons/email.png" class="w-6 h-6"></img>
+                        <p class="text-lg text-center font-medium max-w-2xl">Email:
+                            info@tamas-massge.com</p>
+                    </div>
+                </div>
+                <div class="flex flex-row items-center justify-center my-4 rounded-full shadow-card bg-brand px-4 py-2">
+                    <img src="/assets/icons/location.png" class="w-6 h-6"></img>
+                    <p class="text-xl font-normal mx-4 text-center md:text-left text-foreground">
+                        1139, Petneházy Street 56, Budapest, Hungary</p>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" id="form"
+                    class="min-w-50 flex flex-col items-start mt-8 bg-linear-to-t from-accent/55 to-accent/45 backdrop-blur-md py-4 px-8 rounded-md shadow-card w-full max-w-2xl">
+
+                    <input type="hidden" name="access_key" value="f59e9f01-7337-4eee-a6d7-480571b5b8ab" />
+                    <input type="hidden" name="subject" value="New inquiry from massage website" />
+                    <input type="hidden" name="from_name" value="Tamas massage" />
+
+                    <label class="text-xl font-medium mb-2">Your name</label>
+                    <input name="name" type="text" class="w-full bg-brand rounded-md py-2 px-4 mb-4 shadow-inner"
+                        placeholder="Enter your name" />
+
+                    <label class="text-xl font-medium mb-2">Your email</label>
+                    <input name="email" type="email" class="w-full bg-brand rounded-md py-2 px-4 mb-4 shadow-inner"
+                        placeholder="Enter your email" />
+
+                    <label class="text-xl font-medium mb-2">Your message</label>
+                    <textarea name="message" class="w-full bg-brand rounded-md py-2 px-4 mb-4 shadow-inner"
+                        placeholder="Enter your message" rows=5></textarea>
+
+                    <button type="submit"
+                        class="bg-secondary text-md text-foreground font-bold py-2 px-4 mt-4 hover:cursor-pointer rounded-md shadow-glow transition duration-300">Send
+                        Message</button>
+
+
+                    <div class="hidden text-lg flex w-full items-center justify-center" id="sending-screen">
+                        <h2>Sending...</h2>
+                    </div>
+
+                    <div id="success-screen"
+                        class="hidden flex text-lg mt-8 flex-col items-center justify-center w-full ">
+                        <h2>Thank you!</h2>
+                        <p>Your message has been sent. I'll get back to you soon.</p>
+                    </div>
+                </form>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="flex flex-col items-center justify-center gap-4 py-8">
+        <p class="text-sm text-foreground/75">@2026 Iványi Tamás Sándor EV. All rights reserved.</p>
+        <div class="flex flex-row gap-4">
+            <a href={translations?.contactInfo?.facebook} target="_blank" rel="noopener noreferrer">
+                <img src="/assets/icons/facebook.png" class="w-10 h-10"></img>
+            </a>
+            <a href={translations?.contactInfo?.instagram} target="_blank" rel="noopener noreferrer">
+                <img src="/assets/icons/instagram.png" class="w-10 h-10"></img>
+            </a>
+            <a href={translations?.contactInfo?.tiktok} target="_blank" rel="noopener noreferrer">
+                <img src="/assets/icons/tiktok.png" class="w-10 h-10"></img>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
