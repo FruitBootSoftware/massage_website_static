@@ -1,0 +1,18 @@
+{
+    "news": [
+        {
+            "date": "2026-01-01",
+            "title_hu": "Új év, új kezdetek",
+            "title_en": "New Year, New Beginnings",
+            "content_hu": "Az új év mindig új lehetőségeket hoz magával. Kezdjük el együtt az új kalandokat!",
+            "content_en": "The new year always brings new opportunities. Let's start new adventures together!"
+        },
+        {
+            "date": "2026-01-02",
+            "title_hu": "Új év, új kezdetek",
+            "title_en": "New Year, New Beginnings",
+            "content_hu": "Az új év mindig új lehetőségeket hoz magával. Kezdjük el együtt az új kalandokat!",
+            "content_en": "The new year always brings new opportunities. Let's start new adventures together!"
+        }
+    ]
+}
