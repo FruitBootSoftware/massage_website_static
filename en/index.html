@@ -405,7 +405,10 @@
             class="flex flex-row w-full py-4 px-4 md:px-12 mt-8 justify-start md:justify-center gap-4 overflow-x-auto">
         </div>
 
-        <img id="selectedImage" class="rounded-lg shadow-card object-center mt-0 md:mt-12 cursor-pointer" />
+        <div class="flex w-full justify-center items-center max-w-4xl mx-auto" style="height:60vh;">
+            <img id="selectedImage" class="rounded-lg shadow-card object-contain cursor-pointer mx-auto"
+                style="height:100%; width:auto; max-width:100%; display:block;" />
+        </div>
 
         <div id="galleryImageModal"
             class="flex fixed z-70 top-0 left-0 w-full h-full bg-black bg-opacity-75 items-center justify-center opacity-100 pointer-events-auto transition-opacity duration-300">
