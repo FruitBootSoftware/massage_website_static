@@ -3,23 +3,23 @@
         {
             "id": 1,
             "huf": "5.000 Ft",
-            "eur": "15 EUR",
+            "eur": "13 EUR",
             "discount_huf": "4.000 Ft",
-            "discount_eur": "12 EUR"
+            "discount_eur": "11 EUR"
         },
         {
             "id": 2,
             "huf": "10000 Ft",
-            "eur": "24 EUR",
+            "eur": "26 EUR",
             "discount_huf": "8.000 Ft",
-            "discount_eur": "20 EUR"
+            "discount_eur": "21 EUR"
         },
         {
             "id": 3,
             "huf": "15.000 Ft",
-            "eur": "42 EUR",
+            "eur": "39 EUR",
             "discount_huf": "12.000 Ft",
-            "discount_eur": "36 EUR"
+            "discount_eur": "31 EUR"
         }
     ]
 }

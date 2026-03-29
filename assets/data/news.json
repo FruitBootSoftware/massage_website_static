@@ -1,18 +1,18 @@
 {
     "news": [
         {
-            "date": "2026-01-01",
-            "title_hu": "Új év, új kezdetek",
-            "title_en": "New Year, New Beginnings",
-            "content_hu": "Az új év mindig új lehetőségeket hoz magával. Kezdjük el együtt az új kalandokat!",
-            "content_en": "The new year always brings new opportunities. Let's start new adventures together!"
+            "date": "2026-03-29",
+            "title_hu": "Megnyitottam!",
+            "title_en": "Grand Opening!",
+            "content_hu": "Üdvözlök minden kedves látogatót. Elkészült masszázs stúdiómba várom szeretettel minden vendégemet.",
+            "content_en": "I welcome every dear visitor. I am waiting for all my guests with love in my completed massage studio."
         },
         {
-            "date": "2026-01-02",
-            "title_hu": "Új év, új kezdetek",
-            "title_en": "New Year, New Beginnings",
-            "content_hu": "Az új év mindig új lehetőségeket hoz magával. Kezdjük el együtt az új kalandokat!",
-            "content_en": "The new year always brings new opportunities. Let's start new adventures together!"
+            "date": "2026-03-29",
+            "title_hu": "Nyitási akció!",
+            "title_en": "Opening Promotion!",
+            "content_hu": "Nyitás alkalmából kedvezményes áron vehetőek igénybe szolgáltatásaim. Az akció 2026. június 1-ig tart.",
+            "content_en": "On the occasion of the opening, my services are available at a discounted price. The promotion lasts until June 1, 2026."
         }
     ]
 }
